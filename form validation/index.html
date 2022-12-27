@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JavaScript Form Validation</title>
+        <link rel="stylesheet" href="style2.css">
+    
+</head>
+
+<body>
+    <h1 class="fillform">Fill Form</h1>
+    <form action="/myaction.php" name="myform" onsubmit="return validateForm()" method="post">
+        <div align="left" class="form">
+            <div class="formdesign" id="name">
+                <span class="name">Name:</span><input type="test" name="fname" required><span align="left" class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="email">
+                <span class="email">Email:</span><input type="email" name="femail" required><span align="left" class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="phone">
+                <span class="phone">Phone:</span><input type="phone" name="fphone" required><span align="left" class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="pass">
+                <span class="pass">Password:</span><input type="password" name="fpass" required><span align="left" class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="cpass">
+                <span class="cpass">Confirm Password:</span><input type="password" name="fcpass" required><span align="left" class="formerror"></span></b>
+            </div>
+            <div class="button">
+                <input class="but" type="submit" value="submit">
+            </div>
+        </div>
+    </form>
+</body>
+<script src="script1.js"></script>
+</html>

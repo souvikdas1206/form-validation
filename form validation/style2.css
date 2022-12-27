@@ -1,0 +1,74 @@
+@import url('"https://fonts.googleapis.com/css?family=Aleo|Slabo+27px"');
+.html,
+body {
+    background-color: burlywood;
+    height: auto;
+    width: auto;
+    font-family: 'Aleo', serif;
+}
+
+.formdesign {
+    font-size: 20px;
+}
+.form{
+    box-sizing:;
+}
+
+.fillform {
+    color: black;
+    padding: 0px 330px;
+    margin: auto;
+}
+
+.formdesign input {
+    background-color: white;
+    align-items: center;
+    width: 30%;
+    padding: 12px 10px;
+    border: 1px solid blue;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.formerror {
+    color: red;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.but {
+    border-radius: 9px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.button {
+    padding: 0px 515px;
+}
+
+.name {
+    padding-left: 112px;
+}
+
+.email {
+    padding-left: 112px;
+}
+
+.phone {
+    padding-left: 110px;
+}
+
+.pass {
+    padding-left: 84px;
+}
+
+.cpass {
+    padding-left: 12px;
+}
+
+.errors {
+    padding: 0px 450px;
+}
